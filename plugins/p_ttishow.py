@@ -59,7 +59,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌', url=f'http://telegram.me/MissRose_bot?start=rules_-864377379')
+                                                                           InlineKeyboardButton('ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌', url=f'https://telegra.ph/Rules-04-30-14')
                                                                         ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
