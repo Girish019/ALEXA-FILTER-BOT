@@ -7,6 +7,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
 myclient = pymongo.MongoClient(DATABASE_URI)
+#DATABASE_NAME=> "Cluster0" & COLLECTION_NAME=> 'Telegram_files'
 mydb = myclient[DATABASE_NAME]
 mycol = mydb['CONNECTION']   
 
