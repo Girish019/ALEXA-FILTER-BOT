@@ -2,7 +2,9 @@
 
 import asyncio
 import os
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters, enums, Client 
+from info import S_GROUP
 from Script import script
 
 @Client.on_message((filters.command(["report"]) | filters.regex("@admins") | filters.regex("@admin")) & filters.group)
@@ -30,4 +32,6 @@ async def report_user(bot, message):
             else: # Skipping Bots
                 pass
         if success:
-            await message.reply_text(script.REPRT_MSG)
+            buttons = [[InlineKeyboardButton('Group Link', url=S_GROUP)
+            reply_markup=InlineKeyboardMarkup(buttons)
+            await message.reply_text(text=script.REPRT_MSG,reply_markup=reply_markup)
