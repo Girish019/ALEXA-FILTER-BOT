@@ -263,8 +263,7 @@ This module only works for my admins
     
     CUDNT_FND = """ʜᴇʟʟᴏ {} ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    REPRT_MSG = """ Join our group ask movies there
-    <code>[JOIN GROUP](buttonurl:https://t.me/Muryana_Movies_request_group)</code>"""
+    REPRT_MSG = """ Please join our group ask movies there """
 
    
     UPDATES_TXT = """⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟
