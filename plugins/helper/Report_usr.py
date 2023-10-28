@@ -32,6 +32,6 @@ async def report_user(bot, message):
             else: # Skipping Bots
                 pass
         if success:
-            buttons = [[InlineKeyboardButton('Group Link', url=S_GROUP)
+            buttons = [[InlineKeyboardButton('Group Link', url=S_GROUP)]]
             reply_markup=InlineKeyboardMarkup(buttons)
             await message.reply_text(text=script.REPRT_MSG,reply_markup=reply_markup)
